@@ -1,0 +1,19 @@
+spring:
+ server:
+  port: 8080
+
+---
+environment: test
+server:
+ port: 4000
+
+app:
+  welcomeMsg: "Hello from Test"
+
+---
+environment: prod
+server:
+ port: 5000
+
+app:
+  welcomeMsg: "Hello from Prod"
